@@ -10,8 +10,8 @@ Organization.create([
 
 User.create([
 
-  { full_name: 'User 1' , email: 'user1@gmail.com' , password: '123123' },
-  { full_name: 'User 2' , email: 'user2@gmail.com' , password: '123123' },
+  { email: 'user1@gmail.com' , password: '123123' },
+  { email: 'user2@gmail.com' , password: '123123' },
 
 ])
 
