@@ -68,6 +68,8 @@ Rails.application.configure do
   # Send deprecation notices to registered listeners.
   config.active_support.deprecation = :notify
 
+  Rails.application.routes.default_url_options = { host: 'http://address-book-client-api.herokuapp.com/' }
+
   # Log disallowed deprecations.
   config.active_support.disallowed_deprecation = :log
 
