@@ -1,24 +1,31 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> *Project status:* completed </br>
+> *:busts_in_silhouette: Author:* Mário Augusto Carvalho Lara Leite </br>
+> *:email: Email:* tkyakow@gmail.com  </br>
+> :date: *Year:* 2021
 
-Things you may want to cover:
+# Case:
+**Implement a RESTful API in Ruby on Rails for an AddressBook app following the attached specification. The AddressBook app consists of three parts - creating organization, registering it’s users and managing organization’s contacts.**
 
-* Ruby version
+# Versions:
+> Ruby: 2.7.2p137 (2020-10-01 revision 5445e04352) [x86_64-linux]
 
-* System dependencies
+> Rails: Rails 6.1.2.1
 
-* Configuration
+# Database:
+> PostegreSQL and FireBase
 
-* Database creation
+# Executing the app:
+> Go to repository ([https://github.com/ofamosomario/address-book-client-api](https://github.com/ofamosomario/address-book-client-api) and clone the project.
 
-* Database initialization
+> rake db:create db:migrate db:seed
 
-* How to run the test suite
+> rails s to execute the rails.
 
-* Services (job queues, cache servers, search engines, etc.)
+# Swagger (end-points documentation)
+> [https://address-book-client-api.herokuapp.com/api-docs/i](https://address-book-client-api.herokuapp.com/api-docs/i)
 
-* Deployment instructions
+# Tests
+> Run in terminal: rspec
 
-* ...
+**Thank you!**
