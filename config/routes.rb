@@ -18,7 +18,7 @@ Rails.application.routes.draw do
 
       get   :'/addressbooks/list-organization-contacts/',  to: 'addressbooks#list_organization_contacts', defaults: { format: :json }
       get   :'/addressbooks/search-contact-by-name/',      to: 'addressbooks#search_contact_by_name', defaults: { format: :json }
-
+      get   :'/test/',                                     to: 'organizations#test'
     end
 
   end

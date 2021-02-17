@@ -4,6 +4,12 @@ class Api::V1::OrganizationsController < ApplicationController
   before_action :set_organization, only: [:show, :update, :destroy, :is_admin?]
   before_action :is_admin?, only: [:update, :delete]
 
+  def test
+
+    render json: Organization.all
+
+  end
+
   def index
 
     @organizations = current_user.organizations
