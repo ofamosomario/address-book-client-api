@@ -1,0 +1,3 @@
+class Addressbook < ApplicationRecord
+
+end
